@@ -8,13 +8,13 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen">
       <Header />
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/pricing" element={<Pricing />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
