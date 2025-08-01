@@ -5,7 +5,7 @@ const [billing, setBilling] = useState("monthly");
 
 return (
     <div className="bg-gradient-to-br from-white to-purple-200 min-h-screen flex flex-col items-center justify-center px-4 md:px-10">
-        <h1 className="text-4xl font-bold text-center mt-10">
+        <h1 className="text-6xl font-bold text-center mt-10">
             Plans & Pricing
         </h1>
         <p className="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
